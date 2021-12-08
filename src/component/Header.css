@@ -1,0 +1,10 @@
+.component-header {
+    margin: 5px 0;
+}
+
+.component-header-title {
+    display: inline-block;
+    justify-content: center;
+    vertical-align: middle;
+    font-size: 2em;
+}
