@@ -1,32 +1,20 @@
 import React, { PureComponent } from "react";
 
-import { Container, Row, Col } from "react-bootstrap";
-
 import Header from "./Header";
+import DecklistConvertForm from "./DecklistConvertForm";
 import './App.css';
 
 
 export default class App extends PureComponent {
-    /*constructor(props) {
-        super(props);
-    }*/
-
     render() {
         return (
-            <Container>
-                <Row className="justify-content-md-center">
-                    <Col>
-                        <Header
-                            title="Decklist Converter"
-                         />
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        TODO: add stuff
-                    </Col>
-                </Row>
-            </Container>
-        )
+            <div className="app">
+                <Header title="Decklist Converter" />
+                <DecklistConvertForm />
+                <footer className="footer p-3">
+                    <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                </footer>
+            </div>
+        );
     }
 }

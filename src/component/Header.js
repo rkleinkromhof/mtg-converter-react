@@ -7,8 +7,8 @@ export default class Header extends PureComponent {
             <header className="component-header">
                 <img
                     src="logo.png"
-                    width="64"
-                    height="64"
+                    width="32"
+                    height="32"
                     alt="logo"
                 />
                 <div className="component-header-title">{this.props.title}</div>
